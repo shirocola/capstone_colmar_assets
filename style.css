@@ -3,6 +3,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 body {
@@ -114,7 +116,7 @@ header {
 
 .learn-right input {
     color: white;
-    background-color: #383838;
+    background-color: black;
     padding: 8px 0;
     max-width: 230px;
     font-size: 20px;
@@ -159,7 +161,7 @@ header {
         margin-bottom: 32px;
         max-width: 100%;
         font-size: 25px;
-        background-color: #8b8484;
+        background-color: lightgray;
     }
 }
 
@@ -200,10 +202,10 @@ header {
 }
 
 .information-right .information-content:first-child{
-    border-bottom: 1px solid rgb(177, 173, 173);
+    border-bottom: 1px solid lightgray;
 }
 .information-right .information-content:nth-child(2){
-    border-bottom: 1px solid rgb(177, 173, 173);
+    border-bottom: 1px solid lightgray;
 }
 
 .information-image {
@@ -220,7 +222,7 @@ header {
     width: auto;
     margin: auto 0;
     line-height: 25px;
-    color: #383838;
+    color: black;
 }
 
 .mobile-img {
@@ -350,11 +352,11 @@ header {
     .course-details{
         width: 90%;
         margin: 8px auto;
-        color: #383838
+        color: black
     }
     
     .course-details h2{
-        background-color: #ece8e8;
+        background-color: white;
         padding: 16px 0 24px 16px;
         margin: 0;
     }
@@ -430,7 +432,7 @@ video{
     }
 
     .thesis-exhibit{
-        background-color: #f3f1f1;
+        background-color: white;
         border: none;
     }
 }
