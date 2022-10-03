@@ -277,27 +277,36 @@ header {
 }
 
 
-/* Courses (Using flex-box)*/
+/* Courses */
+
+.course{
+    background-color: lightgray;
+    padding: 32px 72px;
+}
 
  .course h1 {
     text-align: center;
 }
 
 .course-flex {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     margin: 32px 72px;
+    
+    
+    
 }
 
 .course-details {
     margin: 16px 0 24px 16px;
+    
 }
 
 .course-container {
     flex: 0 0 33%;
     padding-right: 32px;
     padding-bottom: 32px;
-    background-color: rgb(255, 255, 250)
+    background-color: lightgray;
 }
 
 .course-container img {
