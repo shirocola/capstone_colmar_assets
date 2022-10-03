@@ -411,11 +411,11 @@ video{
 
 /* Thesis Exhibit for mobile */
 @media (max-width: 768px){
-    .right-column, .video-details{
+    .r-column, .video-details{
         display: none;
     }
 
-    .left-column{
+    .l-column{
         width: 100%;
         margin: 0;
         margin-bottom: 24px;
