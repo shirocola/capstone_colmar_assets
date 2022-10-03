@@ -4,10 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
-
-=======
->>>>>>> 85e38da18a84fc45f90dc550ee39954865b7c4f2
 }
 
 body {
@@ -40,7 +36,7 @@ header {
     height: 32px;
     display: flex;
     align-items: center;
-    color: rgba(0, 0, 0,0.6)
+    color: black;
 }
 
 .left li span{
