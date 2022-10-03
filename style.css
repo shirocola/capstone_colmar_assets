@@ -117,11 +117,13 @@ header {
     background-color: #383838;
     padding: 8px 0;
     max-width: 230px;
+    font-size: 20px;
 }
 
 .learn-right h1 {
-    font-size: large;
-    font-weight: 100;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 
@@ -183,13 +185,14 @@ header {
 }
 
 .information-left h3 {
-    font-size: large;
+    font-size: 25px;
 }
 
 .information-right {
     width: 40%;
     margin-top: 16px;
     margin-left: 16px;
+    border-left: 1px solid lightgray;
 }
 
 .information-content {
@@ -277,7 +280,7 @@ header {
 
 /* Courses (Using flex-box)*/
 
-/* .course h1 {
+ .course h1 {
     text-align: center;
 }
 
@@ -300,35 +303,8 @@ header {
 
 .course-container img {
     width: 100%;
-} */
-
-/* Using css grid */
-.course{
-    background-color: lightgray;
-    padding: 32px 72px;
 }
 
-.course-flex{
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
-
-.course-details {
-    margin: 16px 0 16px 24px;
-}
-
-.course-container:hover{
-    box-shadow: 0 0 20px 9px rgb(224, 222, 222);
-}
-
-.course-details p{
-    font-weight: lighter;
-    font-size: 1em;
-}
-
-.course-container img {
-    width: 100%;
-}
 
 .course h1 {
    text-align: center;
@@ -391,23 +367,24 @@ header {
 }
 .exhibit-main{
     display: flex;
+    width: 100%;
 }
 
-.left-column{
+.l-col{
     width: 60%;
     margin-left: 24px;
     margin-right: 24px;
 }
 
-.left-column h1{
+.l-col h1{
     margin: 24px auto 8px auto;
 }
 
-.left-column p{
+.l-col p{
     margin-bottom: 32px;
 }
 
-.right-column{
+.r-col{
     width: 40%;
 }
 
@@ -453,16 +430,16 @@ video{
 /* footer */
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 16px auto auto 24px;
 }
 
-.right-footer{
+.r-foot{
     display: flex;
     justify-content: space-around;
 }
 
-.right-footer li{
+.r-foot li{
     margin-right: 24px;
 }
 
@@ -476,11 +453,11 @@ a{
 
 /* footer for mobile */
 @media (max-width: 768px){
-    .right-footer{
+    .r-foot{
         display: none;
     }
 
-    .left-footer{
+    .l-foot{
         width: 90%;
     }
 }
